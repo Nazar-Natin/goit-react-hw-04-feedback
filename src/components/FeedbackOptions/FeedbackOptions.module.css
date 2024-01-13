@@ -1,0 +1,32 @@
+.btn {
+  border: none;
+  border-radius: 16px;
+  background: whitesmoke;
+  padding: 8px 16px;
+  transition: 150ms ease-in;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid gray;
+}
+
+.btnWrap {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.btn:hover {
+  border: 2px solid transparent;
+}
+.btn:nth-child(1):hover {
+  background: green;
+  color: whitesmoke;
+}
+
+.btn:nth-child(2):hover {
+  background: gainsboro;
+}
+
+.btn:nth-child(3):hover {
+  background: red;
+  color: whitesmoke;
+}
